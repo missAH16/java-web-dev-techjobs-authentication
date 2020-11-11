@@ -2,11 +2,12 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head th:replace="fragments :: head"></head>
 <body class="container">
-
+<br>
 <header th:replace="fragments :: page-header"></header>
-
-<form method="post">
+<br>
+<form method="post" style="max-width:600px;">
     <div class="form-group">
+        <br>
         <label th:for="username">Username
             <input class="form-control" th:field="${loginFormDTO.username}">
         </label>
